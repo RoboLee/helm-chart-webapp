@@ -1,0 +1,6 @@
+Name: apache2
+image: httpd
+imageTag: "latest"
+replicas: 2
+portType: NodePort
+nodePort: 30002

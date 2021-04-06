@@ -1,0 +1,6 @@
+Name: nginx
+image: nginx
+imageTag: "latest"
+replicas: 2
+portType: NodePort
+nodePort: 30001
